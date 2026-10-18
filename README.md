@@ -12,13 +12,13 @@ ele apenas faz uma requisição de verificação.
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-python probe.py "https://exemplo.com/arquivo"
+python problema.py "https://exemplo.com/arquivo"
 ```
 
 É possível verificar várias URLs na mesma execução:
 
 ```powershell
-python probe.py "https://exemplo.com/a" "https://exemplo.com/b" --timeout 20
+python problema.py "https://exemplo.com/a" "https://exemplo.com/b" --timeout 20
 ```
 
 O script aceita URLs `http://` e `https://`. Caminhos locais de imagens não são
